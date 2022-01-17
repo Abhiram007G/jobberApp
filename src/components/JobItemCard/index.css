@@ -1,0 +1,72 @@
+.job-card-container {
+  background-color: #272727;
+  color: white;
+  margin: 20px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+}
+
+.title {
+  margin: 0px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rating {
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.star {
+  color: #fbbf24;
+}
+
+.title-text-container {
+  margin-left: 20px;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.each-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.middle {
+  margin: 0px 15px 0px 15px;
+  flex-grow: 1;
+}
+
+.lpa {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.type-text {
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
