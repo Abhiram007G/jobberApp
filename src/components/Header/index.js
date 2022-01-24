@@ -1,5 +1,9 @@
 import {Link, withRouter} from 'react-router-dom'
 
+import {FiLogOut} from 'react-icons/fi'
+import {AiFillHome} from 'react-icons/ai'
+import {FaSuitcase} from 'react-icons/fa'
+
 import Cookies from 'js-cookie'
 
 import './index.css'
@@ -27,11 +31,7 @@ const Header = props => {
             className="nav-mobile-btn"
             onClick={onClickLogout}
           >
-            <img
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
-              alt="nav logout"
-              className="nav-bar-img"
-            />
+            <FiLogOut />
           </button>
         </div>
 
@@ -69,21 +69,13 @@ const Header = props => {
         <ul className="nav-menu-list-mobile">
           <li className="nav-menu-item-mobile">
             <Link to="/" className="nav-link">
-              <img
-                src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
-                alt="nav home"
-                className="nav-bar-img"
-              />
+              <AiFillHome />
             </Link>
           </li>
 
           <li className="nav-menu-item-mobile">
             <Link to="/jobs" className="nav-link">
-              <img
-                src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
-                alt="nav products"
-                className="nav-bar-img"
-              />
+              <FaSuitcase />
             </Link>
           </li>
         </ul>
